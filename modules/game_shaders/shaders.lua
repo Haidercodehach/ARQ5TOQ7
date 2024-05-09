@@ -1,6 +1,6 @@
 function init()
   -- add manually your shaders from /data/shaders
-
+g_shaders.createShader("q6","/shaders/q6_vertex","/shaders/q6_fragment")
   -- map shaders
   g_shaders.createShader("map_default", "/shaders/map_default_vertex", "/shaders/map_default_fragment")  
 
